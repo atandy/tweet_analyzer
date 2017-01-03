@@ -20,9 +20,11 @@ from nltk.tokenize import TweetTokenizer
 
 
 class TextAnalyzer:
-    def __init__(self, raw_tweets_list=[{}]):
+    def __init__(self, raw_tweets_list=None):
         '''Initialize the object with a list of dictionaries, used for creating
         dataframe with make_tweet_df()'''
+        if raw_tweets_list is None:
+            raw_tweets_list = [{}]
         self.list_of_tweet_dicts = raw_tweets_list
         return
 
