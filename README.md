@@ -1,7 +1,7 @@
 ## Twitter Tweet Analysis with NLTK and Pandas
 This little project was supposed to be little. So it goes... I initially set out to figure out what features made up Donald J. Trump's tweets. You can do that now with any user's timeline with the code in this repo.
 
-This is all of the code that was used to run the analysis at [link here]
+This is all of the code that was used to run the analysis written up [here](https://sweet-as-tandy.com/2017/01/04/what-donald-trump-is-tweeting-analyzing-tweets-with-nltk-and-pandas/).
 
 ###Key files:
 * tweet_analyzer.py
